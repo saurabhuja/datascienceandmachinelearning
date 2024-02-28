@@ -1,0 +1,162 @@
+jupyter    notebook      --notebook-dir="C:\Users\tsecl\OneDrive\Desktop\MLPractice"
+
+Sample
+Training Set		10		20		30		40		50		60	70	80	90	100
+
+Testing Set		11.25	25.45	35.10	48.11	55.43	59.99	89.96	
+
+
+
+Machine Learning Packages in Python
+
+1)Numpy		=> Numeric array operations
+				High performance data structure
+				Vectarization algo to bypass loop iteration
+
+2)Pandas		=> Pandas Dataframe
+			=> Panel Sheet == Panel Data == Pandas
+
+
+3)Scipy		=> Complex Statistical Calculations
+4)Matplotlib	=> Data Visualization
+5)Seaborn		=> Data Visualization
+
+
+
+
+2)Pandas		=> Pandas Dataframe
+			=> Panel Sheet == Panel Data == Pandas
+
+
+	import pandas as pd
+
+	# pandas datastructure 
+		
+		Series , Dataframe
+
+	Series	=> Is a one-dimension array like object containing seq. of values and an associated array of data labels called its index
+
+	Dataframe => Table of data and contains an ordered collection of columns
+			=> dataframe has both a row and column index
+
+
+None			unknown
+NaN			unknown
+
+There is no meaning to Null in python , its just a string 
+
+
+
+
+Model Implementation Phase
+
+						X1	X2	X3	X4
+Input Data					Col1	Col2	Col3	Col4			2d numpy array
+
+Output Data				ColVal					1d numpy array
+						Y
+
+
+Selecting Algorithm Linear Regression
+Python package for its implementation
+
+	from skleran.linear_model import LinearRegression
+
+	regressor = LinearRegression()
+
+	regressor.fit(___, ___)			# Passing data to machine for learning
+								# fit() method accepst 2 para.	para1=> InputData	para2=>OutputData
+
+								# para1 datatype 2d-numpy array as per fit() method defination
+								# para2 datatype 1d-numpy array as per fit() method defination
+
+
+
+
+Variation measures the spread or dispersion of values in a dataset 
+
+Simple measure of variation is RANGE , the difference between the largest and smallest values 
+
+
+
+dataset 		29		31		35		39		39		40		43		44		44		52
+
+Time taken in minutes , to get ready for an individual 
+
+range = 52-29 = 23  minutes 
+
+Range 23 min indicates that the largest diff between any two days in the time to get ready is 23 min
+
+Note** Being a simple measure of variation the range does nt consider how the values distribute or cluster between Extremes.
+
+
+Experiment:: Tossing a Coin in a set of 3 tosses
+
+
+Observations
+
+			HHH			TTT
+			HHT			TTH
+			HTH			THT
+			THH			HTT
+
+
+
+Probability of getting heads P(X), X is number of heads
+
+P(X=0)	=>		1/8
+P(X=1)	=>		3/8
+P(X=2)	=>		3/8
+P(X=3)	=>		1/8
+
+
+
+Types of Features
+
+1)Discrete
+2)Continuous
+
+
+1)Discrete		
+
+				YrOfBirth		2000		2001		2002		2003		2004
+
+
+				Response		0		1
+
+Yes response			prob(Yes)	= (observations==Yes)/TotalObservations
+					probability distribution of discrete values caluclated using probability calculation
+
+
+
+
+2)Continuous
+
+				Exact weight of animal in the jungle
+
+				1.55~5.67			10.76~50.66		80.12~99.999
+
+
+
+				10kg			prob(10kg)	= (observations==10kg)/TotalObservations
+
+
+					10.01	9.99		10.43
+
+					probability distribution of continuous values calculated using PDF function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

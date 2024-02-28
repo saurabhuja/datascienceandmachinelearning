@@ -1,0 +1,207 @@
+
+
+Start			9:30am 	IST
+
+15min break	11:00am
+
+1hr break		1:00pm
+
+15min break	3:45pm
+		
+Stop			5:30pm
+
+
+Game :: Guess the Number ??
+
+	********************Rule based Application Development********************
+	Explicit Rules / Business Logic :: Write a program that returns the output thats twice the input 
+	Input Data:: 2,3,4,5,6
+		
+	*******************Machine Learning********************
+	Implicit Rule / Pattern Learning :: Output is Twice the Input
+	Pattern :: The Calculation to be done on input to get the output
+
+
+		Input Number			Output Number
+
+			21098		=		41789
+			39841		=		60198	
+			41267		=		875289
+			51100		=		101198
+			61275		=		????		predicted 12	actual 12
+
+			Error = diff(actual,predicted) ~ 0	100% accuracy 
+
+
+
+
+
+
+
+
+Structured Data			Tables (Row & Columns)
+
+Semi-Structured Data	Json,XML,html tag, click stream, delimited files			
+
+UnStructured Data		images, multi-media file, audio files....
+
+
+
+
+
+
+
+Spending Data			100k customers
+
+					10	20	11	21	33	31	12	44	55	41	56
+
+	Apply Unsupervised learning and reques machine to come up with 2 groups based on data similarities(Using ML approach )
+
+					Computer / Machine Learns Patterns on Input Data(Spending Data)
+
+					group1		10	11	12	21	20	33	31		range Normal
+		
+					group2		44	55	41	56					range fraud
+			
+		Input Data			output Label
+		customer details	Normal/Fraud
+
+
+
+Machine Learning with Python
+
+	Why Python ???
+
+	1)Its Free 
+	2)Its easy to learn
+	3)Python has an interactive Environment 
+	4)Python has a rich set of libraries for implementing machine learning solution
+
+
+ANACONDA		Python based Datascience Repository
+
+Install Anaconda it gets on your machine (Python + libraries + IDE)
+
+
+IDE
+
+1)Jupyter Notebook		Interactive Environment + Scripting Editor (Interactive Environment  for Data Exploration)
+2)Spyder				Interactive Environment + Scripting Editor (Scripting Editor for Algorithm Implementation)
+
+3)PyCharm
+4)Visual Code
+5)Eclipse
+6)Intellij
+
+
+
+Step1:		Create a folder named MLPractice at any location on your Machine
+
+				C:\Users\tsecl\OneDrive\Desktop\MLPractice
+
+Step2:		
+
+			winOS			start anaconda prompt
+
+				jupyter    notebook      --notebook-dir="C:\Users\tsecl\OneDrive\Desktop\MLPractice"
+
+
+			MacOS			start terminal
+
+				jupyter    notebook      --notebook-dir="/Users/tsecl/OneDrive/Desktop/MLPractice"
+
+
+https://docs.python.org/3/tutorial/index.html
+			
+Data structures in Python
+
+					Create			Access			Example
+
+1)List				[]				[index]			[11,22,33,44,55,66,77,88,99]	# mixed dataype
+																			# mutable 
+
+2)Tuple				()				[index]			(2000,2001,2003,2004)		# mixed dataype
+																			# immutable 	
+
+3)Dictionary			{}				[key]				{'eid':100,'name':'steven','job':'sales'}
+
+
+
+
+
+Machine Learning Packages in Python
+
+1)Numpy		=> Numeric array operations
+				High performance data structure
+				Vectarization algo to bypass loop iteration
+
+2)Pandas		=> Pandas Dataframe
+3)Scipy		=> Complex Statistical Calculations
+4)Matplotlib	=> Data Visualization
+5)Seaborn		=> Data Visualization
+
+
+# List of packages installed
+## anaconda prompt / terminal
+
+pip list
+conda list
+
+
+
+
+
+
+
+
+
+#mList =[0................ 1000000]
+
+mList = list(range(0,1000000))
+newList = []
+
+for i in range(10):
+	for x in mList:
+		newList.append(x*2)
+
+-----------------------------------------------
+
+mList = list(range(0,1000000))
+
+for i in range(10): newList = [ x*2 for x in mList]
+
+
+
+
+
+
+
+
+
+
+
+Python value set to Null
+
+None
+nan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
